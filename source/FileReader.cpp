@@ -12,6 +12,19 @@ FileReader::FileReader(const string &path, Graph *graph) {
     this->graph = graph;
 }
 
+
+std::string FileReader::capitalizeFirstLetter(const std::string& str)
+{
+    std::string result = str;
+    if (!result.empty()) {
+        result[0] = std::toupper(result[0]);
+        for (std::size_t i = 1; i < result.size(); ++i) {
+            result[i] = std::tolower(result[i]);
+        }
+    }
+    return result;
+}
+
 std::vector<Station *> FileReader::readStations() {
     ifstream stationsFile("dataset/stations.csv");
     stationsFile.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -43,8 +56,8 @@ std::vector<Station *> FileReader::readStations() {
         }
 
         string name = lineVector[0],
-                district = lineVector[1],
-                municipality = lineVector[2],
+                district = capitalizeFirstLetter(lineVector[1]),
+                municipality = capitalizeFirstLetter(lineVector[2]),
                 township = lineVector[3],
                 line = lineVector[4];
         auto* station = new Station(name, district, municipality, township, line);

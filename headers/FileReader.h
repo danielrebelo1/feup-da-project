@@ -21,6 +21,7 @@ public:
     std::vector<Station*> readStations();
     void readNetworks();
     std::string strip(const std::string &str) const;
+    std::string capitalizeFirstLetter(const std::string &str);
 };
 
 #endif //PROJECT_FILEREADER_H
