@@ -12,9 +12,10 @@ FileReader::FileReader(const string &path, Graph *graph) {
     this->graph = graph;
 }
 
-/*std::vector<Station *> FileReader::readStations() {
-    ifstream stationsFile("/home/diogotvf7/Documents/2a2s/da/feup-da-project/dataset/stations.csv");
+std::vector<Station *> FileReader::readStations() {
+    ifstream stationsFile("dataset/stations.csv");
     stationsFile.ignore(numeric_limits<streamsize>::max(), '\n');
+
     std::vector<Station*> stations;
     while(stationsFile.good()){
         string sentence, data;
@@ -34,7 +35,7 @@ FileReader::FileReader(const string &path, Graph *graph) {
                     string temp;
                     getline(ss, temp, '\"');
                     data = data.erase(0,1);
-                    data += temp;
+                    data += ',' + temp;
                     if (ss.peek() == ',') ss.ignore();
                 }
             }
@@ -46,13 +47,14 @@ FileReader::FileReader(const string &path, Graph *graph) {
                 municipality = lineVector[2],
                 township = lineVector[3],
                 line = lineVector[4];
-        Station* station = new Station(name, district, municipality, township, line);
+        auto* station = new Station(name, district, municipality, township, line);
         stations.push_back(station);
     }
 
     return stations;
-}*/
+}
 
+/*
 std::vector<Station*>  FileReader::readStations() {
 
     ifstream csv("/home/diogotvf7/Documents/2a2s/da/feup-da-project/dataset/stations.csv");
@@ -82,7 +84,7 @@ std::vector<Station*>  FileReader::readStations() {
     }
     return stations;
 }
-
+*/
 
 /*void readNetworks(){
 

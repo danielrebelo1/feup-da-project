@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/diogotvf7/Documents/2a2s/da/feup-da-project/cmake-build-debug"
+			"value" : "/home/jaime/Desktop/projecteren-da/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-j16"
+			"value" : "-j8"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -627,7 +627,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/diogotvf7/Documents/2a2s/da/feup-da-project/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/jaime/Desktop/projecteren-da/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/diogotvf7/Documents/2a2s/da/feup-da-project"
+			"value" : "/home/jaime/Desktop/projecteren-da"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1267,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/diogotvf7/Documents/2a2s/da/feup-da-project/cmake-build-debug"
+			"value" : "/home/jaime/Desktop/projecteren-da/cmake-build-debug"
 		},
 		{
 			"name" : "feup_da_project_IS_TOP_LEVEL",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/diogotvf7/Documents/2a2s/da/feup-da-project"
+			"value" : "/home/jaime/Desktop/projecteren-da"
 		}
 	],
 	"kind" : "cache",

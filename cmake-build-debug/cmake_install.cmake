@@ -1,4 +1,4 @@
-# Install script for directory: /home/diogotvf7/Documents/2a2s/da/feup-da-project
+# Install script for directory: /home/jaime/Desktop/projecteren-da
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/diogotvf7/Documents/2a2s/da/feup-da-project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jaime/Desktop/projecteren-da/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

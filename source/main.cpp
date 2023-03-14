@@ -8,10 +8,11 @@ int main(){
     FileReader fr("../dataset", g);
     std::string test = fr.strip("   ..-.-.. asdasdasdasda  .-. . --.. ");
     std::cout << test << std::endl;
-    /*std::vector<Station*> stations = fr.readStations();
+    std::vector<Station*> stations = fr.readStations();
+
     for (Station *station : stations)
         std::cout << station->getName() << '_' << station->getDistrict() << '_' << station->getMunicipality()
-        << '_' << station->getTownship() << '_' << station->getLine() << std::endl;*/
+        << '_' << station->getTownship() << '_' << station->getLine() << std::endl;
 
     return 0;
 }

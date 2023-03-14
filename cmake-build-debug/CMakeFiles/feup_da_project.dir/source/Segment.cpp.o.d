@@ -1,7 +1,7 @@
 CMakeFiles/feup_da_project.dir/source/Segment.cpp.o: \
- /home/diogotvf7/Documents/2a2s/da/feup-da-project/source/Segment.cpp \
+ /home/jaime/Desktop/projecteren-da/source/Segment.cpp \
  /usr/include/stdc-predef.h \
- /home/diogotvf7/Documents/2a2s/da/feup-da-project/./headers/Segment.h \
+ /home/jaime/Desktop/projecteren-da/./headers/Segment.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

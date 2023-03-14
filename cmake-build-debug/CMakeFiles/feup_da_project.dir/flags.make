@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/diogotvf7/Documents/2a2s/da/feup-da-project/.
+CXX_INCLUDES = -I/home/jaime/Desktop/projecteren-da/.
 
 CXX_FLAGS = -g -fdiagnostics-color=always
 
