@@ -12,12 +12,12 @@ add_executable(
         dataset/real-dataset/stations.csv
         dataset/test-dataset/network.csv
         dataset/test-dataset/stations.csv
-        headers/Util.h
+        include/Util.h
         source/Util.cpp
-        headers/StationTrack.h
+        include/StationTrack.h
         source/StationTrack.cpp
-        headers/Network.h
+        include/Network.h
         source/Network.cpp
-        headers/NetworkManager.h
+        include/NetworkManager.h
         source/NetworkManager.cpp
-        headers/Menu.h source/Menu.cpp Test.hpp main.cpp)
+        include/Menu.h source/Menu.cpp Test.hpp main.cpp)

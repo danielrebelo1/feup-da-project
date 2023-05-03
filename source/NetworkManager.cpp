@@ -1,4 +1,4 @@
-#include "headers/NetworkManager.h"
+#include "../include/NetworkManager.h"
 
 using namespace std;
 
